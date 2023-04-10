@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolWay</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="shortcut icon" href="/assets/img/bolsa-de-la-compra.png" type="image/x-icon">
+    <script>
+        /*mensaje de la parte superior*/
+        var texto = ["¿ya eres cliente?", "¡unete ahora!"];
+        function cambio() {
+            var elementos = document.getElementById("top");
+            var indice = Math.floor(Math.random() * texto.length);
+            elementos.innerHTML = texto[indice];
+        }
+        setInterval(cambio, 5000);
+
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <main id="cabecera">
+            <div id="messaje">
+                <p id="top">¡bienvenido!</p>
+            </div>
+            <div class="header-raw">
+                <a class="titulo" href="index.html">COOLWAY</a>
+            </div>
+        </main>
+
+    </header>
+    <!--iconos generales y menu-->
+    <section class="nav-icon">
+        <div class="icons">
+            <!-- ...código de iconos... -->
+            <a href="/user.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44" height="44"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="7" r="4" />
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                </svg>
+            </a>
+            <a href="/wishlist.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                </svg>
+            </a>
+            <a href="/carrito.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="6" cy="19" r="2" />
+                    <circle cx="17" cy="19" r="2" />
+                    <path d="M17 17h-11v-14h-2" />
+                    <path d="M6 5l14 1l-1 7h-13" />
+                </svg>
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="menu">
+              <!-- ...código de menú... -->
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/productos.html">Productos</a></li>
+                    <li class="desplegar">
+                      <a href="#">Categorías</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Ropa</a></li>
+                        <li><a href="#">Calzado</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Tecnologia</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/general.html">Contacto</a></li>
+                  </ul>
+                </nav>
+    </section>
+    <!--fin de iconos generales y menu-->
+    <main>
+        <section class="box-center">
+            <h1 class="titulo4">contactanos</h1>
+            <div class="contact-fondo"></div>
+    
+            <form action="" class="formulario">
+                <label for="">nombre completo</label>
+                <input type="text" placeholder="ingresa tu nombre">
+                <label for="">correo electronico</label>
+                <input type="email" placeholder="ingresa tu correo">
+                <label for="">Comentarios</label>
+                <textarea name="" id="" cols="30" rows="10">
+                </textarea>
+                <input type="submit" value="Enviar Datos">
+            </form>
+        </section>
+        <section class="about-us" id="segundo">
+            <h3>sobre nosotros</h3>
+            <p>
+                En <a href="/index.html">CoolWay</a>, nos dedicamos a ofrecer una amplia variedad de productos de alta
+                calidad a precios competitivos. Nos enfocamos en brindar una experiencia de compra en línea fácil y
+                segura para nuestros clientes, y nos esforzamos por proporcionar un excelente servicio al cliente en
+                todo momento. Además, estamos comprometidos con la satisfacción del cliente, por lo que ofrecemos una
+                política de devolución fácil y conveniente para cualquier producto que no cumpla con las expectativas de
+                nuestros clientes. Nuestro objetivo es proporcionar la mejor experiencia de compra en línea posible y
+                hacer que la vida de nuestros clientes sea más fácil y más agradable. ¡Gracias por elegir nuestra tienda
+                en línea!
+            </p>
+        </section>
+        <section class="about-us" id="tercero">
+            <h3>aviso legal</h3>
+            <p>
+                El presente aviso legal regula el uso del sitio web <a href="/index.html">CoolWay</a>, en adelante "el
+                sitio web",
+
+                <br>
+                El acceso y uso del sitio web atribuye la condición de usuario del sitio web, e implica la aceptación
+                plena y sin reservas por parte del usuario, de todas las condiciones incluidas en este aviso legal.
+                <br>
+                Propiedad intelectual e industrial
+                Todos los derechos de propiedad intelectual e industrial sobre el sitio web y sus contenidos, incluyendo
+                textos, imágenes, diseños, logos, software, código fuente y cualquier otro material, son propiedad de
+                [nombre del propietario o la empresa propietaria] o de terceros que han autorizado su uso. El usuario
+                reconoce y acepta que estos derechos están protegidos por la legislación en materia de propiedad
+                intelectual e industrial.
+                <br>
+                El usuario se compromete a respetar estos derechos y a no reproducir, copiar, distribuir, transformar o
+                modificar los contenidos del sitio web, salvo que cuente con la autorización del propietario de los
+                correspondientes derechos.
+                <br>
+                Uso del sitio web
+                El usuario se compromete a hacer un uso adecuado del sitio web, de acuerdo con la ley y los presentes
+                términos y condiciones. El usuario se obliga a abstenerse de:
+                <br>
+                Utilizar el sitio web con fines ilícitos, contrarios a la moral y a las buenas costumbres o lesivos de
+                derechos e intereses de terceros.
+                Realizar acciones que puedan dañar, inutilizar, sobrecargar o deteriorar el sitio web o impedir su
+                normal funcionamiento.
+                Utilizar el sitio web para la transmisión, instalación o publicación de cualquier virus, malware o
+                programa que pueda causar daños o alteraciones en el sitio web o en los sistemas informáticos de
+                terceros.
+                Realizar actividades que impliquen la comercialización o explotación del sitio web o de sus contenidos
+                sin autorización previa y por escrito de [nombre del propietario o la empresa propietaria].
+                El usuario será responsable de los daños y perjuicios que [nombre del propietario o la empresa
+                propietaria] pueda sufrir como consecuencia del incumplimiento de cualquiera de las obligaciones a las
+                que queda sometido por este aviso legal o por la ley.
+                <br>
+                Exclusión de responsabilidad
+                El propietario del sitio web no se hace responsable de los errores u omisiones que puedan existir en la
+                información y contenidos incluidos en el sitio web, ni de cualquier daño o perjuicio derivado del uso de
+                la información contenida en el sitio web.
+                <br>
+                El propietario del sitio web no garantiza la disponibilidad y continuidad del funcionamiento del sitio
+                web, ni la ausencia de virus u otros elementos lesivos que puedan causar daños o alteraciones en el
+                sistema informático del usuario o en sus documentos electrónicos.
+                <br>
+                El propietario del sitio web no se hace responsable de los contenidos o servicios prestados por terceros
+                a través del sitio web, ni de los daños o perjuicios que puedan derivarse de los mismos.
+                <br>
+                Modificaciones del aviso legal
+                El propietario del sitio web se reserva el derecho a modificar en cualquier momento y sin necesidad de
+                previo aviso el contenido del presente aviso legal, así como las condiciones de uso del sitio web.
+            </p>
+
+        </section>
+        <section class="about-us" id="cuarto">
+            <h3>condiciones de servicio</h3>
+            <p>
+                Bienvenido a nuestro sitio web. Si continúas navegando y utilizando este sitio web, aceptas cumplir y
+                estar sujeto a las siguientes condiciones de servicio, que junto con nuestra política de privacidad,
+                rigen nuestra relación con respecto a este sitio web. Si no estás de acuerdo con alguna parte de estas
+                condiciones, por favor no utilices nuestro sitio web.
+                <br>
+                El término "nosotros" se refiere al propietario del sitio web. El término "tú" se refiere al usuario o
+                visitante del sitio web.
+                <br>
+                Uso del sitio web:
+                <br>
+                El uso de este sitio web está sujeto a las siguientes condiciones de uso:
+                <br>
+                El contenido de las páginas de este sitio web es para tu información general y uso solamente. Está
+                sujeto a cambios sin previo aviso.
+                Ni nosotros ni terceros proporcionamos ninguna garantía en cuanto a la exactitud, puntualidad,
+                rendimiento, integridad o idoneidad de la información y los materiales encontrados u ofrecidos en este
+                sitio web para cualquier propósito en particular. Reconoces que dicha información y materiales pueden
+                contener inexactitudes o errores y expresamente excluimos la responsabilidad por cualquier inexactitud o
+                errores en la medida máxima permitida por la ley.
+                El uso de cualquier información o material en este sitio web es bajo tu propio riesgo, y no seremos
+                responsables de ello. Es tu responsabilidad asegurarte de que cualquier producto, servicio o información
+                disponible a través de este sitio web cumpla con tus requisitos específicos.
+                Este sitio web contiene material que es propiedad nuestra o licenciado a nosotros. Este material
+                incluye, pero no se limita a, el diseño, diseño, apariencia, apariencia y gráficos. La reproducción está
+                prohibida salvo de conformidad con el aviso de copyright, que forma parte de estas condiciones de uso.
+                Todas las marcas reproducidas en este sitio web que no son propiedad del operador o están autorizadas
+                por el operador, son reconocidas en el sitio web.
+                El uso no autorizado de este sitio web puede dar lugar a una reclamación por daños y/o constituir un
+                delito.
+                De vez en cuando, este sitio web también puede incluir enlaces a otros sitios web. Estos enlaces se
+                proporcionan para su conveniencia para proporcionar más información. No significan que respaldamos el
+                (los) sitio (s) web. No tenemos responsabilidad por el contenido del sitio web (s) vinculado (s).
+                Tu uso de este sitio web y cualquier disputa que surja del uso de este sitio web está sujeto a las leyes
+                de [insertar país/región].
+                Modificaciones en las condiciones de servicio:
+                <br>
+                Nos reservamos el derecho de actualizar estas condiciones de servicio en cualquier momento sin previo
+                aviso. Es tu responsabilidad revisar esta página periódicamente para estar al tanto de cualquier cambio.
+                El uso continuado de nuestro sitio web después de cualquier cambio constituye tu aceptación de dichos
+                cambios.
+            </p>
+        </section>
+        <section class="about-us" id="quinto">
+            <h3>politica de cookies</h3>
+            <p>
+                El sitio web <a href="/index.html">CoolWay</a>,  utiliza cookies y tecnologías similares para
+                mejorar la experiencia del usuario y ofrecer un mejor
+                servicio. A continuación, se detallan las cookies utilizadas por el sitio web y su finalidad:
+                <br>
+                ¿Qué son las cookies?
+                Las cookies son pequeños archivos de texto que se descargan en el dispositivo del usuario al acceder a
+                un sitio web. Las cookies permiten al sitio web reconocer el dispositivo del usuario y almacenar
+                información sobre sus preferencias o actividad en el sitio web.
+                <br>
+                Cookies utilizadas en el sitio web
+                El sitio web utiliza las siguientes cookies:
+                <br>
+                Cookies técnicas: son cookies necesarias para el funcionamiento del sitio web y para permitir al usuario
+                acceder a sus servicios y contenidos. Estas cookies no requieren el consentimiento del usuario.
+                Cookies de análisis: son cookies utilizadas para recopilar información sobre el uso del sitio web por
+                parte del usuario, como el número de visitas, la duración de la visita, las páginas visitadas, etc. Esta
+                información se utiliza para mejorar el sitio web y ofrecer un mejor servicio al usuario.
+                Cookies de personalización: son cookies utilizadas para recordar las preferencias del usuario en el
+                sitio web, como el idioma, la moneda, etc.
+                Cookies de publicidad: son cookies utilizadas para mostrar anuncios relevantes para el usuario en
+                función de su actividad en el sitio web y en otros sitios web. Estas cookies pueden ser proporcionadas
+                por terceros y requieren el consentimiento del usuario.
+                Gestión de cookies
+                El usuario puede configurar su navegador para rechazar todas las cookies o para recibir una notificación
+                cuando se envía una cookie. Sin embargo, esto puede afectar el funcionamiento del sitio web y limitar el
+                acceso a sus servicios y contenidos.
+                <br>
+                El usuario puede modificar su configuración de cookies en cualquier momento desde el enlace "Política de
+                Cookies" que se encuentra en el pie de página del sitio web.
+                <br>
+                Cambios en la política de cookies
+                El propietario del sitio web se reserva el derecho de modificar la presente política de cookies en
+                cualquier momento y sin necesidad de previo aviso. La versión actualizada de la política de cookies
+                estará disponible en el sitio web en todo momento.
+                <br>
+                Al utilizar el sitio web, el usuario acepta el uso de cookies de acuerdo con la presente política de
+                cookies. Si el usuario no está de acuerdo con la presente política de cookies, deberá abstenerse de
+                utilizar el sitio web.
+            </p>
+        </section>
+
+    </main>
+
+    <!--inicio del footer-->
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled"
+                        width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z"
+                            stroke-width="0" fill="currentColor"></path>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                        width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter-filled"
+                        width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M14.058 3.41c-1.807 .767 -2.995 2.453 -3.056 4.38l-.002 .182l-.243 -.023c-2.392 -.269 -4.498 -1.512 -5.944 -3.531a1 1 0 0 0 -1.685 .092l-.097 .186l-.049 .099c-.719 1.485 -1.19 3.29 -1.017 5.203l.03 .273c.283 2.263 1.5 4.215 3.779 5.679l.173 .107l-.081 .043c-1.315 .663 -2.518 .952 -3.827 .9c-1.056 -.04 -1.446 1.372 -.518 1.878c3.598 1.961 7.461 2.566 10.792 1.6c4.06 -1.18 7.152 -4.223 8.335 -8.433l.127 -.495c.238 -.993 .372 -2.006 .401 -3.024l.003 -.332l.393 -.779l.44 -.862l.214 -.434l.118 -.247c.265 -.565 .456 -1.033 .574 -1.43l.014 -.056l.008 -.018c.22 -.593 -.166 -1.358 -.941 -1.358l-.122 .007a.997 .997 0 0 0 -.231 .057l-.086 .038a7.46 7.46 0 0 1 -.88 .36l-.356 .115l-.271 .08l-.772 .214c-1.336 -1.118 -3.144 -1.254 -5.012 -.554l-.211 .084z"
+                            stroke-width="0" fill="currentColor"></path>
+                    </svg>
+                </a>
+            </div>
+            <h3>¡mejora tu experiencia!</h3>
+            <div class="general">
+                <a href="/general.html">Contacto</a>
+                <a href="#segundo">Sobre nosotros</a>
+                <a href="#tercero">Aviso legal</a>
+                <a href="#cuarto">Condiciones de servicio</a>
+                <a href="#quinto">Politicas de cookies</a>
+                <a href="/user.html">Mi cuenta</a>
+            </div>
+            <div class="">
+
+            </div>
+    </footer>
+    <!--fin del footer-->
+
+</body>
+
+</html>
